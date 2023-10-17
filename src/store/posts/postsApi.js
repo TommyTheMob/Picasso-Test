@@ -7,7 +7,7 @@ export const postsApi = createApi({
     }),
     endpoints: (build) => ({
         getPosts: build.query({
-            query: () => `posts`
+            query: (page= '') => `posts?${page && `_page=${page}`}`
         })
     })
 })
