@@ -12,13 +12,13 @@ const PageNavbar = (props) => {
             <Navbar sticky='top' expand="lg" className="bg-primary-subtle">
                 <Container>
                     <Navbar.Brand className='text-primary-emphasis'>
-                        <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/'>Picasso Test</Link>
+                        <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/Picasso-Test'>Picasso Test</Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link disabled={page === 'posts'}>
-                                <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/'>Posts</Link>
+                                <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/Picasso-Test'>Posts</Link>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

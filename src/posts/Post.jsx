@@ -14,7 +14,7 @@ const Post = (props) => {
                     {post.body.length > 150 ? post.body.slice(0,150) + '...' : post.body}
                 </Card.Text>
                 <Button variant='primary' size="sm">
-                    <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to={`/posts/${post.id}`}>See post</Link>
+                    <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to={`/Picasso-Test/posts/${post.id}`}>See post</Link>
                 </Button>
             </Card.Body>
         </Card>

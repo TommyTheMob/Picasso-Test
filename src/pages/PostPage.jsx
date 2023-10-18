@@ -28,7 +28,7 @@ const PostPage = () => {
                                 {data.body}
                             </Card.Text>
                             <Button variant="primary">
-                                <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/'>Back
+                                <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/Picasso-Test'>Back
                                     to posts</Link>
                             </Button>
                         </Card.Body>

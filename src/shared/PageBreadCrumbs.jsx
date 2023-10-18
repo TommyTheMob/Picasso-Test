@@ -10,7 +10,7 @@ const PageBreadCrumbs = (props) => {
         <Container fluid className='mt-2'>
             <Breadcrumb>
                 <Breadcrumb.Item active={page === 'posts'}>
-                    <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/'>
+                    <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to='/Picasso-Test'>
                         Posts
                     </Link>
                 </Breadcrumb.Item>
