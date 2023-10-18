@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Card} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 const Post = (props) => {
     const { post } = props
@@ -12,7 +13,9 @@ const Post = (props) => {
                 <Card.Text>
                     {post.body.length > 150 ? post.body.slice(0,150) + '...' : post.body}
                 </Card.Text>
-                <Button href='#' variant='primary' size="sm">See post</Button>
+                <Button variant='primary' size="sm">
+                    <Link style={{textDecoration: 'inherit', color: 'inherit', cursor: 'inherit'}} to={`/posts/${post.id}`}>See post</Link>
+                </Button>
             </Card.Body>
         </Card>
     );
